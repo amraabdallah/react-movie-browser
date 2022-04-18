@@ -1,7 +1,7 @@
 # Screen Shots
 
 ![](ScreenShots/ReactBrowser1.jpg)
-![](ScreenShots/ReactBrowser1.jpg)
+![](ScreenShots/ReactBrowser2.jpg)
 
 ## Technologies & Tools
 Axios\
