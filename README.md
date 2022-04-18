@@ -1,3 +1,19 @@
+# Screen Shots
+
+![](ScreenShots/ReactBrowser1.jpg)
+![](ScreenShots/ReactBrowser1.jpg)
+
+## Technologies & Tools
+Axios\
+Bootstrap 5\
+React Router v6
+
+
+`API Used`
+
+Thee Movie DB API
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
