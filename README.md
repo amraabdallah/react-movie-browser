@@ -11,7 +11,7 @@ React Router v6
 
 `API Used`
 
-Thee Movie DB API
+TheMovieDB API
 
 
 # Getting Started with Create React App
