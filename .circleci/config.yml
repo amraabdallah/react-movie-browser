@@ -23,7 +23,7 @@ jobs:
         - run: 
             name: update cache & upgrade packages
             command: |
-              sudo apt update
+              sudo apt-get update
               sudo apt upgrade -y
 
         - run:
