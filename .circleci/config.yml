@@ -42,7 +42,7 @@ jobs:
       - run: apk add --update curl
       - run:
         name: smoke test
-        command:
+        command: |
           URL: "https://blog.udacity.com/"
           if curl -s --head ${URL}
           then
