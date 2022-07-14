@@ -52,10 +52,10 @@ jobs:
     docker:
       - image: alpine
     steps:
-   - run:
-       name: Test job
-       command:  return 1
-   - destroy_environment  
+    - run:
+        name: Test job
+        command:  return 1
+    - destroy_environment  
 
 
 
