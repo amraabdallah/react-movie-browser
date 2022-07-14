@@ -20,6 +20,12 @@ jobs:
         - checkout
         - add_ssh_keys:
                 fingerprints: ["78:d5:12:dd:aa:81:34:86:1f:dc:d3:01:9b:09:5a:04"] 
+        - run: 
+            name: update cache & upgrade packages
+            command: |
+              sudo apt update
+              sudo apt upgrade -y
+
         - run:
             name: Install Ansible
             command: |
