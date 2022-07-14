@@ -46,9 +46,9 @@ jobs:
             URL="https://blog.udacity.com/"
             if curl -s --head ${URL}
             then
-              return "it works!"
+              return 0
             else
-              return "it fails"
+              return 1
             fi
 
 workflows:
