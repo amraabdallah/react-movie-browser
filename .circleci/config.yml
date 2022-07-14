@@ -24,9 +24,11 @@ jobs:
             name: Install Ansible
             command: |
               apk add --update ansible
+              
         - run:
             name: Run Playbook and Configure server
             command: |
+              export ANSIBLE_HOST_KEY_CHECKING=False
               ansible-playbook -i inventory main.yml
 
 workflows:
