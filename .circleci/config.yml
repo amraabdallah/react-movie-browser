@@ -52,18 +52,11 @@ jobs:
     docker:
       - image: alpine
     steps:
-      - run: apk add --update curl
-      - run:
-          name: smoke test
-          command: |
-            URL="https://failtestnow654.com/"
-            if curl -s --head ${URL}
-            then
-              return 0
-            else
-              return 1
-            fi
-      - destroy_environment
+   - run:
+       name: Test job
+       command:  return 1
+   - destroy_environment  
+
 
 
 workflows:
