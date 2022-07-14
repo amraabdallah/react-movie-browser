@@ -1,10 +1,9 @@
 - name: Configuring the infrastructure on aws
   hosts: all
-  gather_facts: no
   user: ubuntu
   become: true
   become_method: sudo
   become_user: root
-  
+
   roles:
    - setup
