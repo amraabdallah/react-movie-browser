@@ -1,0 +1,12 @@
+- name: Configuring the infrastructure on aws
+  hosts: all
+  user: ubuntu
+  become: true
+  become_method: sudo
+  become_user: root
+
+  vars:
+    ansible_host_key_checking: false
+    
+  roles:
+   - setup
